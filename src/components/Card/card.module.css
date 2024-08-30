@@ -1,0 +1,17 @@
+/* 
+Module CSS
+- Bu kullanimda her css dosyasi bor modul yapisindadir ve tek bilesene ozeldir.
+
+- Class isimlendirirken acaba bu isim farkli bir yerde kullanildi mi diye dert etmeye gerek kalmiyor. Cunku modul css'de tanimlanan class ismini bir yerde import edildiginde benzersiz bir classname olsuturur.
+
+- Class ismi tanimlarken bu bir nesnenin icerisinde property olacagi icin ozel karakter kullanmayiz.
+*/
+
+.note_card {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.note_card:hover {
+  transform: translate(10px, -10px);
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.3));
+}
