@@ -2,7 +2,7 @@
 
 <h2>Screenshot</h2>
 
-![](Note_App.gif)
+![](%20Note_App.gif)
 
 # Every
 
